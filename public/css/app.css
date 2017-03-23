@@ -1,0 +1,199 @@
+body {
+	background: #F5F5F5;
+}
+
+h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+
+/*tr:hover{
+	border-left: 2px solid #f53256;
+}*/
+
+#container {
+	position: relative;
+	background: #F5F5F5;
+}
+
+/* MAIN */
+
+.Overview {
+	text-decoration: none;
+  padding: 20px 0 20px 20px;
+  color: #FFFFFF;
+	background: #f53256;
+  display: table-cell;
+  width: 1%;
+}
+
+.Overview:hover {
+	text-decoration: none;
+  background-color: #FFFFFF;
+  color: #f53256;
+}
+
+.content {
+	position: absolute;
+	right: 10px;
+}
+
+.navbars {
+	background: #2b2f3d;
+	color: #444a56;
+	font: 'Avenir';
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 260px;
+}
+
+/* POSTS */
+
+.items {
+	position: absolute;
+	overflow: auto;
+	background: #FFFFFF;
+	width: 500px;
+	float: left;
+	margin: 50px 0 30px 290px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	border-radius: 1px;
+}
+
+.form-control{
+	margin-left: 30px;
+	display:inline;
+	width: 325px;
+}
+
+.badge{
+	margin-left: 10px;
+	background: #00ccc0;
+	color: #FFFFFF;
+}
+
+.btnAdd {
+	width: 125px;
+	margin-left: 10px;
+	background: #00ccc0;
+	color: #FFFFFF;
+}
+
+.btnAdd:hover {
+	background: #FFFFFF;
+	color: #00ccc0;
+	border: 1px solid #00ccc0;
+}
+
+.tables {
+	float: left;
+	margin-left: 30px;
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+.tables td{
+	padding: 10px 0 10px 0;
+	border-spacing: 20px 20px;;
+	border-bottom: 1px solid #ddd;
+}
+
+.tables a{
+	color: #55595c;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.tables a:hover{
+	color: #aaa;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.deleteBtn{
+	float: right;
+	width: 100px;
+	background: #FFFFFF;
+	color: #f53256;
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+.deleteBtn:hover{
+	background: #f53256;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+/* COMMENTS */
+
+.comments {
+	overflow: auto;
+	background: #FFFFFF;
+	width: 425px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 30px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	border-radius: 1px;
+}
+
+.commentText {
+	width: 70%;
+	font-size: 15px;
+	margin-right: 13px;
+	margin-left: 100px;
+	padding: 10px;
+	border-spacing: 20px 20px;
+	border-bottom: 1px solid #ddd;
+	text-indent: 1.5em;
+}
+
+.comments textarea {
+	width: 300px;
+	height: 80px;
+	bottom: 15px;
+	margin-left: 100px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	border: none;
+	border-radius: 1px;
+}
+
+.comments-table {
+	width: 70%;
+	margin-left: 100px;
+}
+
+.submit {
+	width: 100px;
+	margin-left: 100px;
+	margin-bottom: 15px;
+	background: #00ccc0;
+	color: #FFFFFF;
+}
+
+.submit:hover {
+	background: #FFFFFF;
+	color: #00ccc0;
+	border: 1px solid #00ccc0;
+}
+
+.btnClose {
+	background: 0 0;
+	border: 0;
+	float: right;
+}
+
+.btnClose:hover {
+	color: #aaa;
+	border-radius: 10px;
+}
+
+.img {
+	height: 50px;
+	width: 50px;
+	background: #F0F0F0;
+}
